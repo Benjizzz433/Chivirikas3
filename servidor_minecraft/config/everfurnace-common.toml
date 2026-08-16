@@ -1,0 +1,41 @@
+
+#EverFurnace — Common (server-side) configuration
+[catchup]
+	#Master toggle for the catch-up mechanic.
+	#Set to false to disable EverFurnace entirely and let vanilla handle all smelting.
+	catchupEnabled = true
+	#Maximum ticks of offline time to simulate in one catch-up pass.
+	#Default: 24000 (1 in-game day). Range: 1 – 192000.
+	#Range: 1 ~ 192000
+	maxCatchupTicks = 24000
+	#Minimum tick gap required before catch-up logic fires.
+	#Default: 20 (1 second at normal TPS). Below this the furnace is considered
+	#actively ticking and vanilla handles smelting. Raise to require a larger gap.
+	#Range: 1 ~ 72000
+	minDeltaThreshold = 20
+	#Per-block toggle for brewing stand catch-up.
+	#Brewing potions offline (especially with automated, hopper-fed stands)
+	#has a different balance profile than smelting, so it can be disabled
+	#independently while leaving furnace/campfire catch-up on.
+	#Requires the master 'catchupEnabled' to also be true.
+	#Default: true
+	brewingStandCatchupEnabled = true
+
+[notifications]
+	#Send a chat message to the player when they open a furnace that
+	#cooked items while they were away. Requires Feature B to be implemented.
+	notifyPlayerOnCatchup = true
+	#Minimum ticks between notification arms for a single furnace.
+	#Items cooked during the cooldown are still counted — they are batched
+	#into the existing pending notification rather than dropped.
+	#Set to 0 to disable the cooldown (notify on every catch-up pass).
+	#Range: 0 – 72 000  |  Default: 200 (10 seconds)
+	#Range: 0 ~ 72000
+	notificationCooldownTicks = 200
+	#Deliver pending furnace notifications when the player logs in,
+	#in addition to when they open a furnace.
+	#Recommended on multiplayer servers where catch-up may fire before
+	#the owning player has connected.
+	#Default: true
+	notifyOnLogin = true
+

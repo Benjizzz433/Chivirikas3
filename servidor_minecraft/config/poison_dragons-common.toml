@@ -1,0 +1,40 @@
+
+[poison_dragons]
+	#Enables poison dragon natural spawning and egg hatching.
+	enablePoisonDragons = true
+	#Documentation only for the bundled biome modifier; the generated biome JSON uses a fixed default weight of 2.
+	#Range: 0 ~ 100
+	spawnWeight = 2
+	#One out of this many valid chunks tries to generate a poison dragon roost. Set 0 to disable roosts.
+	#Range: 0 ~ 10000
+	poisonDragonRoostChance = 360
+	#One out of this many valid chunks tries to generate a poison dragon den/cave. Set 0 to disable dens.
+	#Range: 0 ~ 10000
+	poisonDragonCaveChance = 180
+	#If true, dead poison dragon skeletons can generate in valid biomes.
+	generatePoisonDragonSkeletons = true
+	#One out of this many valid chunks tries to generate a poison dragon skeleton. Set 0 to disable skeletons.
+	#Range: 0 ~ 10000
+	poisonDragonSkeletonChance = 300
+	#Percent chance that each random poison dragon corpse loot drop is kept.
+	#Range: 0 ~ 100
+	poisonLootDropChance = 100
+	#Multiplier applied to non-egg poison dragon corpse loot stack counts.
+	#Range: 0.0 ~ 64.0
+	poisonLootCountMultiplier = 1.0
+	#Percent chance that poison dragon egg loot is kept when the loot table rolls an egg.
+	#Range: 0 ~ 100
+	poisonEggDropChance = 100
+	#Base poison breath damage before stage scaling.
+	#Range: 0.0 ~ 100.0
+	poisonBreathDamage = 2.0
+	#Poison effect duration in ticks.
+	#Range: 0 ~ 20000
+	poisonEffectDuration = 300
+	#Poison effect amplifier.
+	#Range: 0 ~ 10
+	poisonEffectAmplifier = 0
+	#Poison dragon egg hatch time in ticks.
+	#Range: 200 ~ 200000
+	poisonEggHatchTime = 12000
+

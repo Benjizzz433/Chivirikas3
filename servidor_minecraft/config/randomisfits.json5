@@ -1,0 +1,22 @@
+{
+  // default: true
+  "multitoolInteractions": true,
+  // default: true
+  "toggleHammerMode": true,
+  // default: true
+  "toggleExcavatorMode": true,
+  // default: true
+  "toggleLumberaxeFelling": true,
+  // min: 1, max: 2147483647, default: 512
+  "fellingLimit": 512,
+  // min: 1, max: 2147483647, default: 150
+  "ironKitRepairAmount": 150,
+  // min: 1, max: 2147483647, default: 600
+  "diamondKitRepairAmount": 600,
+  // min: 1, max: 2147483647, default: 900
+  "netheriteKitRepairAmount": 900,
+  // default: true
+  "wearableLightBlocks": true,
+  // default: true
+  "rightClickSlotOpenMenu": true
+}

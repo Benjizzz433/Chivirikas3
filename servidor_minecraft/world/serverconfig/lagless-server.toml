@@ -1,0 +1,11 @@
+
+["Lagless Configuration"]
+	#Ativar ou desativar a limpeza automática de memória.
+	autoCleanup = true
+	#Intervalo de verificação em segundos.
+	#Range: 10 ~ 3600
+	cleanupInterval = 300
+	#Limite de uso de memória (em porcentagem) para disparar a limpeza.
+	#Range: 50 ~ 99
+	memoryThreshold = 80
+

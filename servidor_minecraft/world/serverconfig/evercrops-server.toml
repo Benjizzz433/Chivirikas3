@@ -1,0 +1,58 @@
+
+[crops]
+	#Enable catch-up growth for standard crops (wheat, carrots, potatoes, beetroot, etc.)
+	cropsEnabled = true
+	#Enable catch-up growth for stem crops (melon, pumpkin)
+	stemCropsEnabled = true
+	#Enable catch-up growth for sweet berry bushes, nether wart, and cocoa pods
+	bushCropsEnabled = true
+	#Enable catch-up growth for column crops (sugar cane, cactus, kelp)
+	columnCropsEnabled = true
+	#Enable catch-up growth for saplings
+	saplingCropsEnabled = true
+	#Enable catch-up growth for bamboo
+	bambooEnabled = true
+	#Enable catch-up growth for twisting vines
+	twistingVinesEnabled = true
+	#Enable catch-up growth for weeping vines
+	weepingVinesEnabled = true
+	#Enable catch-up growth for cave vines
+	caveVinesEnabled = true
+	#Enable catch-up growth for chorus flowers
+	chorusFlowerEnabled = true
+	#Enable catch-up honey production for beehives and bee nests. When enabled, a hive that
+	#had bees and a known flower while you were away keeps filling its honey_level (up to 5)
+	#based on elapsed time. Honey only accrues for the daytime share of the time away (bees do
+	#not work at night/rain), and EverCrops learns each hive's real fill rate while it is loaded.
+	beehivesEnabled = true
+	#Cold-start fill rate for beehive catch-up: assumed daytime ticks to gain one honey level
+	#before a hive has been observed producing honey while loaded (1200 ticks = 1 minute).
+	#Once a hive produces honey while you are nearby, its own measured rate is used instead and
+	#this value no longer applies to it. Lower = faster offline honey.
+	#Range: 200 ~ 100000
+	beehiveHoneyIntervalTicks = 1500
+	#Enable catch-up growth for modded growables that pass capability detection (a random-ticking block
+	#with an 'age'/'stage'/'colony_age' growth property) but do not match any known vanilla category. Default true.
+	moddedCropsEnabled = true
+	#Block ids to exclude from capability detection — structural false-positives whose growth property
+	#is not actually a growth axis (e.g. fire spread, ice melt). Use full ids like "minecraft:fire".
+	denylist = ["minecraft:fire", "minecraft:soul_fire", "minecraft:frosted_ice"]
+	#Track naturally-generated (wild) kelp, twisting/weeping/cave vines, and chorus flowers for catch-up growth.
+	#When false (default), only placed plants of these types are tracked (player, villager, automation), keeping the
+	#saved registry small near oceans and the Nether. When true, wild ones are tracked too; kelp and vines
+	#relocate their tracking entry as they grow so they never leave stale entries behind.
+	#(Bamboo is unaffected by this setting — it always registers on first tick regardless.)
+	trackWildVines = false
+
+[cleanup]
+	#Periodically scan the crop registry and remove entries whose block is no longer a tracked crop
+	#(e.g. crops destroyed by pistons, explosions, fluids, or other mods that bypass the player BreakEvent).
+	#Only loaded chunks are checked; unloaded entries are left untouched.
+	#Prevents the evercrops.dat registry from slowly accumulating stale entries over time.
+	autoCleanupEnabled = true
+	#How often (in game ticks) the automatic cleanup scan runs per dimension.
+	#1200 = 1 minute, 36000 = 30 minutes, 72000 = 60 minutes.
+	#The scan only touches loaded chunks, so it is cheap at typical values.
+	#Range: 1200 ~ 288000
+	autoCleanupIntervalTicks = 36000
+

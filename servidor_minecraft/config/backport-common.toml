@@ -1,0 +1,20 @@
+
+[worldgen]
+	#Генерировать биом Dappled Forest в новых чанках
+	dappledForest = true
+	#Генерировать структуру Abandoned Camp
+	abandonedCamp = true
+
+[gameplay]
+	#Добавлять саженцы Poplar и Shelf Mushroom в торговлю странствующего торговца
+	wanderingTraderOffers = true
+	#Пружинистость Shelf Mushroom при наступании
+	shelfMushroomBounce = true
+	#Разрешить крафт Mushroom Stew и Suspicious Stew из двух любых грибов
+	anyMushroomStew = true
+
+[fixes]
+	#Применять исправления ошибок ванили, вошедшие в 26.3
+	#Список — в docs/BACKPORT-MATRIX.md, раздел 5
+	vanillaBugfixes = true
+

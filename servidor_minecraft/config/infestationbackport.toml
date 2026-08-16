@@ -1,0 +1,12 @@
+# Potion of Infestation Backport Configuration
+
+[general]
+
+# Chance (0 - 100) that silverfish spawn when an infested entity is damaged.
+spawnChance = 100
+
+# Minimum number of silverfish that can spawn.
+minSpawn = 2
+
+# Maximum number of silverfish that can spawn.
+maxSpawn = 5

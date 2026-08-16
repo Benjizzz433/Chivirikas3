@@ -1,0 +1,422 @@
+{
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "fsang:root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "alienevo:alien_evolution": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "spidermonkey:root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "aeroflame_nonaliens:af_root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "aeo:root": {
+    "criteria": {
+      "ticky": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "fsang_ironman:root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "amped:amped": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "omni_extras:root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "florauna_addon:root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "bhmod:mastery/root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "chrono:main/root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "seadwellers:adv_root": {
+    "criteria": {
+      "adv_root": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "bhmod:obtainment/root": {
+    "criteria": {
+      "tick": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2026-08-04 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/using/trailblazer": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-04 02:13:36 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/scroll_of_returning": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-04 02:13:36 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:eroded_badlands": "2026-08-04 03:06:56 +0000",
+      "minecraft:cherry_grove": "2026-08-15 03:33:30 +0000",
+      "minecraft:bamboo_jungle": "2026-08-04 02:52:18 +0000",
+      "minecraft:wooded_badlands": "2026-08-06 01:53:13 +0000",
+      "minecraft:badlands": "2026-08-06 00:44:27 +0000",
+      "minecraft:beach": "2026-08-05 02:09:31 +0000",
+      "minecraft:sparse_jungle": "2026-08-04 02:58:33 +0000",
+      "minecraft:river": "2026-08-04 02:13:36 +0000",
+      "minecraft:lukewarm_ocean": "2026-08-05 02:38:44 +0000",
+      "minecraft:stony_shore": "2026-08-06 02:00:11 +0000",
+      "minecraft:forest": "2026-08-04 02:13:58 +0000",
+      "minecraft:desert": "2026-08-04 03:06:53 +0000",
+      "minecraft:jungle": "2026-08-04 02:32:13 +0000",
+      "minecraft:warm_ocean": "2026-08-06 01:52:15 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-08-05 02:43:48 +0000",
+      "minecraft:meadow": "2026-08-15 03:31:19 +0000",
+      "minecraft:savanna": "2026-08-04 03:17:02 +0000",
+      "minecraft:plains": "2026-08-04 02:24:09 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-04 02:13:36 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-04 02:13:36 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-08-04 02:17:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-08-04 02:24:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_mutton": "2026-08-05 15:42:18 +0000",
+      "apple": "2026-08-04 02:31:10 +0000",
+      "bread": "2026-08-05 02:27:15 +0000",
+      "melon_slice": "2026-08-04 02:37:08 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-08-04 02:31:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-08-05 02:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-08-05 02:56:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2026-08-06 00:57:36 +0000",
+      "minecraft:zombie": "2026-08-05 03:22:24 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2026-08-05 03:22:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-08-05 03:29:18 +0000"
+    },
+    "done": true
+  },
+  "alienevo:discover_pod": {
+    "criteria": {
+      "find_pod": "2026-08-05 03:30:20 +0000"
+    },
+    "done": true
+  },
+  "omni_extras:findtower": {
+    "criteria": {
+      "find": "2026-08-05 15:42:35 +0000"
+    },
+    "done": true
+  },
+  "alienevo:discover_priory": {
+    "criteria": {
+      "find_priory": "2026-08-06 00:37:22 +0000"
+    },
+    "done": true
+  },
+  "paraglider:root": {
+    "criteria": {
+      "crafting_table": "2026-08-06 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-08-06 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:primal/tame_walrus": {
+    "criteria": {
+      "tame_walrus": "2026-08-06 02:01:25 +0000"
+    },
+    "done": true
+  },
+  "terramity:terramity_parent_advancement": {
+    "criteria": {
+      "terramity_parent_advancement_0": "2026-08-15 01:05:22 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:bat_membranes": {
+    "criteria": {
+      "tick": "2026-08-15 01:05:22 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2026-08-15 01:05:22 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:custom_nether_portals": {
+    "criteria": {
+      "tick": "2026-08-15 01:05:22 +0000"
+    },
+    "done": true
+  },
+  "omniverse_time_pack_aliens:root": {
+    "criteria": {
+      "tick": "2026-08-15 01:05:22 +0000"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/terracotta": {
+    "criteria": {
+      "has_block": "2026-08-15 01:05:22 +0000"
+    },
+    "done": false
+  },
+  "vanillatweaks:pillager_tools": {
+    "criteria": {
+      "tick": "2026-08-15 01:05:22 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:armored_elytra": {
+    "criteria": {
+      "tick": "2026-08-15 01:05:22 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-08-15 03:35:24 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-08-15 03:13:15 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/floor_is_tears": {
+    "criteria": {
+      "requirement": "2026-08-15 03:20:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-08-15 03:13:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2026-08-15 03:13:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-08-15 03:13:45 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/soul_searcher": {
+    "criteria": {
+      "incendium:ash_barrens": "2026-08-15 03:19:39 +0000",
+      "incendium:quartz_flats": "2026-08-15 03:19:33 +0000",
+      "incendium:withered_forest": "2026-08-15 03:21:12 +0000"
+    },
+    "done": false
+  },
+  "incendium:misc/root": {
+    "criteria": {
+      "incendium:quartz_flats": "2026-08-15 03:19:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-08-15 03:13:45 +0000"
+    },
+    "done": true
+  },
+  "incendium:ash_barrens/root": {
+    "criteria": {
+      "requirement": "2026-08-15 03:19:39 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/root": {
+    "criteria": {
+      "requirement": "2026-08-15 03:19:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:withered_forest/root": {
+    "criteria": {
+      "requirement": "2026-08-15 03:21:12 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
